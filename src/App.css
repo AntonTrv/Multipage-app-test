@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+#custom-styles .header-color {
+		background-color: #30323D;
+		font-family: 'Quicksand', sans-serif;
+}
+
+#custom-styles .mdl-layout-title a {
+		text-decoration: none;
+		color: white;
+		font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+}
+
+.logo {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+		background-color: black;
+}
+
+.logo span {
+		color: white;
+		text-align: right;
+		padding: 20px 10px 10px 50px;
+		text-transform: uppercase;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 20px;
+		letter-spacing: 5px;
+		line-height: 40px;
+		font-weight: 500;
+}
+
+.logo span:nth-child(2) {
+		padding-bottom: 10px;
+		padding-top: 0;
+}
+
+.left {
+		display: flex;
+		max-height: 110px;
+}
+
+.aside-left {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+}
+
+.aside-left span {
+		font-size: 20px;
+		color: white;
+		margin: 10%;
+}
+
+#custom-styles .right {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		color: white;
+		width: 70%;
+		min-width: 300px;
+		margin-left: auto;
+		border-left: 1px dashed rgba(0, 0, 0, 0.3);
+		border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+		border-bottom-right-radius: 50%;
+		border-bottom-left-radius: 1%;
+}
+
+#custom-styles .right h1 {
+		font-weight: normal;
+		font-family: 'Quicksand', sans-serif;
+		margin: 1% 0;
+		padding-left: 1%;
+}
+
+#custom-styles .right p {
+		font-family: 'Roboto',sans-serif;
+		font-size: 20px;
+		font-weight: lighter;
+		padding-left: 1%;
+}
+
+#custom-styles .right img {
+		width: 22%;
+		min-width: 150px;
+		min-height: 430px;
+		max-height: 500px;
+		position: absolute;
+		top: 0;
+		left: 200px;
+		z-index: 0;
+}
+
+#custom-styles .right .contacts {
+		background-color: white;
+		background-image: url(https://buzzhostingservices.com/images/graph-paper-texture.png);
+		background-position-x: 73.4%;
+		background-size: contain;
+		color: black;
+		padding: 2% 2%;
+		margin-left: 1%;
+		margin-bottom: 10%;
+		width: 30%;
+		min-width: 300px;
+		z-index: 1;
+		filter: grayscale(100%);
+}
+
+#custom-styles .right .contacts h2 {
+		font-size: 18px;
+		margin: 0;
+		font-weight: bold;
+		font-family: 'Quicksand',sans-serif;
+}
+
+#custom-styles .right .contacts p {
+		margin: 0;
+		font-family: 'Roboto',sans-serif;
+}
+
+.right-clients {
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		margin-left: auto;
+		border-left: 1px dashed rgba(0, 0, 0, 0.3);
+		border-bottom: 1px dashed rgba(0, 0, 0, 0.4);
+		border-bottom-left-radius: 1%;
+		margin-bottom: 10%;
+}
+
+.decoration-mannequin {
+		background-image: url("https://i.pinimg.com/originals/7d/c0/bd/7dc0bd63fe1c8ee0c94352e7205b8811.png");
+		background-size: cover;
+		height: 300px;
+		width: 200px;
+		position: fixed;
+		bottom: 0;
+		left: -11%;
+}
+
+iframe {
+		margin: 1% 1% 1% 30%;
+}
+
+.signIn-form,
+.login {
+		width: 90%;
+		margin: auto;
+}
+
+.signIn-form input,
+.login input {
+		margin: 0 1% 0 0;
+}
+
+.sign-success,
+.db-output,
+.user-db {
+		width: 90%;
+		margin: auto;
+}
+
+.sign-success h2,
+.db-output h2,
+.user-db h2 {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 20px;
+}
+
+.user-db {
+		border: 1px dashed white;
+}

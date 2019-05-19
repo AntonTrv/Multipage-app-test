@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+.user {
+		flex-basis: 25%;
+		min-width: 240px;
+		color: white;
+		margin: 1%;
+		padding: 1%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+		border: 1px dashed rgba(0, 0, 0, 0.5);
+		border-radius: 20%;
+}
+
+.user img {
+		border-radius: 50%;
+		border: 2px dashed white;
+		width: 30%;
+}
+
+.user h2 {
+		text-transform: capitalize;
+		font-weight: lighter;
+}
+
+.user .location {
+		text-transform: capitalize;
+}
+
+.user span {
+		margin: 2%;
+}

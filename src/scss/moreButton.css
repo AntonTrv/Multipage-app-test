@@ -1,0 +1,59 @@
+.more-clear {
+		width: 20%;
+		display: flex;
+		justify-content: space-around;
+		flex-flow: wrap row;
+		margin: auto;
+		margin-bottom: 1%;
+}
+
+.more-clear button {
+		display: flex;
+		width: 20%;
+		margin: 1% auto 4% auto;
+		height: 40px;
+		width: 100px;
+		background-color: black;
+		color: white;
+		border: none;
+		text-transform: uppercase;
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		letter-spacing: 2px;
+}
+
+.more-clear button .more-clear button span {
+		margin: auto;
+}
+
+.more-clear button span {
+		margin: auto;
+}
+
+.more-clear button:first-child:before {
+		content: '<';
+		position: relative;
+		left: -21%;
+		font-size: 28px;
+}
+
+.more-clear button:first-child:after {
+		content: '>';
+		position: relative;
+		font-size: 28px;
+		right: -20%;
+}
+
+.more-clear button:nth-child(2):before {
+		content: '<';
+		position: relative;
+		left: -21%;
+		font-size: 28px;
+}
+
+.more-clear button:nth-child(2):after {
+		content: '>';
+		position: relative;
+		font-size: 28px;
+		right: -11.5%;
+}
